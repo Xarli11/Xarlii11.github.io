@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body{
+    background: url(https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg) center center no-repeat
+  }
+  .login {
+    width: 320px;
+    height: 450px;
+    border: 1px solid #CCC;
+    background: url(https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif) center center no-repeat;
+    background-size: cover;
+    margin: 125px auto;
+    border-radius: 20px;
+  }
+  .login .form {
+    width: 100%;
+    height: 100%;
+    padding: 15px 25px;
+  }
+  .login .form h2 {
+    color: #FFF;
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    text-transform:uppercase;    
+  }
+  .login .form .border_login{
+    border-top: 3px solid white;
+    border-left: 15px;
+    border-right: 15px;
+    margin-top: -50px;
+    margin-bottom: 70px;
+  }
+  .login .form input {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(255,255,255,.5);
+    border: 1px solid rgba(255,255,255,.1);
+    padding: 0 15px;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .login .form input:focus {
+    border: 1px solid rgba(255,255,255,.8);
+    outline: none;
+  }
+  ::-webkit-input-placeholder {
+      color: #DDD;
+  }
+  .login .form input.submit {
+    background: rgba(255,255,255,.9);
+    color: #444;
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: bold;
+  }
