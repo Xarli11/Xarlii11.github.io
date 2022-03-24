@@ -6,7 +6,7 @@
     font-family: sans-serif;
     background-color: #24252a;
     text-align: center;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 /*Imagen de Fondo*/
@@ -39,9 +39,7 @@ body {
     height: 70px;
 }
 
-
 .about {
-
     height: 550px;
     /* width: 900px;  */
     margin-bottom: 25px;
@@ -51,9 +49,9 @@ body {
     background: url("https://i.imgur.com/8tcxHWh.jpeg") center center no-repeat;
     backdrop-filter: blur(5px);
     background-repeat: no-repeat;
-    border-radius: 20px;
-    border-color: white;
-    border: 2px solid white;
+    /* border-radius: 20px; */
+    border: 10px dashed white;
+    /* border-color: white; */
 }
 
 .about h1 {
@@ -75,14 +73,16 @@ body {
     margin-right: 300px;
     margin-top: 15px;
 }
+.about h3,h4{
+    color: white;
+    background-color: transparent;
+    margin-left: 60px;
+    margin-right: 60px;
+}
 
 .about h3 {
     text-align: center;
-    color: white;
-    background-color: transparent;
     margin-top: 120px;
-    margin-left: 60px;
-    margin-right: 60px;
     font-style: italic;
     font-size: 25px;
 }
@@ -91,8 +91,6 @@ body {
     color: white;
     background-color: transparent;
     margin-top: 50px;
-    margin-left: 60px;
-    margin-right: 60px;
     font-size: 20px;
 
 }
