@@ -3,7 +3,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 /* Hide the images by default */
@@ -15,15 +15,15 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 250px;
+  top: 50%;
   width: auto;
   padding: 16px;
   color: white;
   font-weight: bold;
   font-size: 28px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  border-radius: 0 3px;
+  user-select: none; /*Esto permite que se puede marcar y poder copiar el elemento, como si fuese un texto, asi que lo ponemos en none para que no se pueda hacer*/
   background-color: transparent;
 }
 
@@ -36,7 +36,7 @@
   /* border-radius: 3px 0 0 3px; */
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* Cuando se ponga el raton encima, el color va a ser un poco menos opaco para que parezca que tiene sombra */
  .prev:hover, .next:hover {
   background-color: rgba(78, 78, 78, 0.4);
   border-radius: 100px;
@@ -51,17 +51,19 @@
   bottom: 8px;
   width: 100%;
   text-align: center;
+ 
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
+/* .numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
   background-color: rgba(78, 78, 78, 0.5);
-}
+  border-radius: 30px 30px;
+} */
 
 /* The dots/bullets/indicators */
 /* .dot {
